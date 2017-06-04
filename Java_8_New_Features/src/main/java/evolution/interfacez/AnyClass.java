@@ -1,4 +1,4 @@
-package evolution.defaultz.method;
+package evolution.interfacez;
 
 import org.junit.Test;
 
@@ -12,5 +12,6 @@ public class AnyClass implements AnyInterface {
 	public void testDefaultMethods() {
 		AnyClass anyClass = new AnyClass();
 		anyClass.anyMethod();
+		AnyInterface.anyStaticMethod();
 	}
 }
